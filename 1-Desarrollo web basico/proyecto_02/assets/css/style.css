@@ -1,0 +1,430 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+
+
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
+    padding: 25px 100px;
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 1px;
+}
+
+header nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    padding-left: 25px;
+    font-size: 1.3rem;
+}
+
+header nav a:link{
+    color: #000;
+}
+
+header nav a:visited {
+    color: rgb(128, 128, 128);
+}
+
+header nav a:hover{
+  color: #10C9C3;
+}
+
+header nav a:active {
+    color: rgb(220, 20, 20);
+}
+
+
+
+/*Index*/
+
+#banner-inicio{
+    background-color: #F6F6F6;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 80px 400px;
+}
+
+#banner-inicio p{
+    color: #747474;
+}
+
+#grilla {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grilla article{
+    width: 25%;
+    height: 350px;
+    position: relative;
+}
+
+#grilla article img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+#grilla article div{
+    width: 100%;
+    height: 100%;
+    background-color: #10C9C3;
+
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#grilla article div i{
+    color: #fff;
+    font-size: 3rem;
+
+    transition: 0.3s;
+}
+
+#grilla article div:hover{
+    opacity: 0.85;
+}
+
+#grilla article div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    
+}
+
+
+
+/*Proyecto*/
+
+#producto{
+    display: flex;
+    align-items: center;
+
+    background-color: #F6F6F6;
+}
+
+#producto h2{
+    margin: 0;
+}
+
+#producto p{
+    color: #747474;
+}
+
+#producto h2,
+#producto p {
+    padding: 0 150px 10px 100px;
+}
+
+#producto img{
+    width: 50%;
+}
+
+#producto h3{
+    padding: 25px 5px 0 100px;
+    margin: 0;
+}
+
+#producto article div p{
+    padding: 25px 0px 0 0;
+    margin: 0;
+}
+
+#producto article div{
+    display: flex;
+}
+
+#flechas nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 15px;
+}
+
+#flechas nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 25px;
+    font-size: 1.3rem;
+}
+
+#flechas nav a:link{
+    color: #000;
+}
+
+#flechas nav a:visited {
+    color: rgb(128, 128, 128);
+}
+
+#flechas nav a:hover{
+  color: #10C9C3;
+}
+
+#flechas nav a:active {
+    color: rgb(220, 20, 20);
+}
+
+
+
+/*Nosotros*/
+
+#banner-nosotros{
+    height: 450px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    text-align: center;
+    padding: 170px;
+
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/nosotros/header-about-me.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#banner-nosotros h1{
+    margin-top: 0;
+}
+
+#banner-nosotros p{
+    padding: 0 200px;
+}
+
+#estadistica{
+    background-color: #10C9C3;
+    color: #FFF;
+    height: 200px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#estadistica article{
+    display: flex;
+    align-items: center;
+}
+
+#estadistica article p{
+    padding-left: 15px;
+}
+
+#sobre{
+    background-color: #f6f6f6ff;
+    text-align: left;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre article{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+#sobre p{
+    padding: 0 200px 0 0;
+    color: #747474;
+}
+
+#hablemos{
+    background-color: #fff;
+    text-align: center;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hablemos p{
+    padding: 0 300px;
+    color: #747474;
+}
+
+#hablemos a{
+    background-color: #10C9C3;
+    align-self: center;
+    width: 250px;
+    padding: 25px 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    
+    justify-content: center;
+    align-content: center;
+}
+
+#hablemos a:hover{
+    background-color: lightblue;
+}
+
+
+
+/*Contacto*/
+
+#info{
+    width: 30%;
+}
+
+#formulario{
+    width: 50%;
+}
+
+#info div{
+    display: flex;
+}
+
+#info p{
+    padding-right: 80px;
+    color: #747474;
+}
+
+#info div p{
+    padding-left: 5px;
+}
+
+#contacto{
+    background-color: #F6F6F6;
+
+    display: flex;
+    justify-content: center;
+}
+
+#formulario input,
+#formulario textarea{
+    border: none;
+    padding: 15px 20px;
+    margin: 10px 0;
+}
+
+form{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+form div input{
+    width: 48%;
+}
+
+input[type="submit"] {
+    background-color: #10C9C3;
+    color: #FFF;
+    align-self: center;
+    padding: 5px 15px;
+    width: 200px;
+    padding: 20px 0px;
+    font-size: 1.1rem;
+}
+
+input[type="submit"]:hover{
+    background-color: lightblue;
+}
+
+#mapa{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+    padding: 50px 0 100px 0;
+}
+
+
+
+/*Footer*/
+
+footer ul{
+    list-style: none;
+}
+
+footer{
+    background-color: #000;
+    padding: 80px;
+
+    display: flex;
+}
+
+footer section{
+    width: 100%;
+}
+
+footer p,
+footer ul{
+    color: #adadad;
+}
+
+
+footer section h3{
+    color: #fff;
+}
+
+footer ul{
+    line-height: 25px;
+}
+
+#correo{
+    padding-left: 250px;
+    
+}
+
+#enlaces{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#redes{
+    display: flex;
+    justify-content: center;
+}
