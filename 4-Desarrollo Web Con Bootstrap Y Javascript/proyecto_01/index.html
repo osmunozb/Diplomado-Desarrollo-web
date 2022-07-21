@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diginews 24</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d1b5388e0f.js" crossorigin="anonymous"></script>
+
+    <!-- CSS de Bootstrap local -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+    <!-- CSS Personal -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <section class="bg-dark d-flex justify-content-center align-items-center bg-opacity-75">
+            <h1 class="text-uppercase text-center my-2 text-white">
+                <i class="far fa-newspaper"></i> Diginews 24 <i class="far fa-newspaper"></i>
+            </h1>
+        </section>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand text-uppercase" href="#">Diginews 24</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContentOne" aria-controls="navbarSupportedContentOne"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContentOne">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOne" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Nacional
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownOne">
+                                <li><a class="dropdown-item" href="#">Norte</a></li>
+                                <li><a class="dropdown-item" href="#">Centro</a></li>
+                                <li><a class="dropdown-item" href="#">Sur</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Tendencias</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTwo" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Internacional
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTwo">
+                                <li><a class="dropdown-item" href="#">Economía</a></li>
+                                <li><a class="dropdown-item" href="#">EEUU</a></li>
+                                <li><a class="dropdown-item" href="#">Europa</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Tendencias</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Opinión</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Socios</a>
+                        </li>
+
+
+                    </ul>
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+
+    <main>
+        <section id="carrusel" class="carousel slide container " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/images/jpg/noticia_01.jpg" class="d-block w-100 tamano-img-1" alt="Noticia 1">
+                    <div class="carousel-caption d-md-block bg-dark rounded-pill bg-opacity-75">
+                        <h5>Noticia 1</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="assets/images/jpg/noticia_02.jpg" class="d-block w-100 tamano-img-1" alt="Noticia 2">
+                    <div class="carousel-caption d-md-block bg-dark rounded-pill bg-opacity-75">
+                        <h5>Noticia 2</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="assets/images/jpg/noticia_03.jpg" class="d-block w-100 tamano-img-1" alt="Noticia 3">
+                    <div class="carousel-caption d-md-block bg-dark rounded-pill bg-opacity-75">
+                        <h5>Noticia 3</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="assets/images/jpg/noticia_04.jpg" class="d-block w-100 tamano-img-1" alt="Noticia 4">
+                    <div class="carousel-caption d-md-block bg-dark rounded-pill bg-opacity-75">
+                        <h5>Noticia 4</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati.</p>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+
+        <section class="container py-5">
+
+            <h2 class="mb-3 text-center text-lg-start">Noticias del momento</h2>
+
+            <div class="row g-4 d-none" id="card-normal">
+                <div class="col-12 col-md-6 col-xl-3 ">
+                    <div class="card h-100 shadow" id="card-normalUno">
+                        <img src="assets/images/jpg/noticia_01.jpg" class="card-img-top tamano-img-2" alt="Noticia 1">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Noticia 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque beatae
+                                excepturi repellat atque, sequi eum rerum! Ab hic doloremque tempore facilis natus
+                                alias, deleniti maxime?</p>
+
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Ver el artículo</a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100 shadow">
+                        <img src="assets/images/jpg/noticia_02.jpg" class="card-img-top tamano-img-2" alt="Notica 2">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Noticia 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque beatae
+                                excepturi repellat atque, sequi eum rerum! Ab hic doloremque tempore facilis natus
+                                alias, deleniti maxime?</p>
+
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Ver el artículo</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100 shadow">
+                        <img src="assets/images/jpg/noticia_03.jpg" class="card-img-top tamano-img-2" alt="Noticia 3">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Noticia 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque beatae
+                                excepturi repellat atque, sequi eum rerum! Ab hic doloremque tempore facilis natus
+                                alias, deleniti maxime?</p>
+
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Ver el artículo</a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100 shadow">
+                        <img src="assets/images/jpg/noticia_04.jpg" class="card-img-top tamano-img-2" alt="Noticia 4">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">Noticia 4</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque beatae
+                                excepturi repellat atque, sequi eum rerum! Ab hic doloremque tempore facilis natus
+                                alias, deleniti maxime?</p>
+
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Ver el artículo</a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row g-4" id="contenedor-placeholder">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100 shadow">
+                        <img src="assets/images/jpg/gris.jpg" class="card-img-top tamano-img-2" alt="Cargando imagen">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder">Noticia 1</span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-8"></span>
+
+                            </p>
+
+                            <button class="btn btn-primary btn-lg" type="button" disabled>
+                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                Cargando...
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100 shadow">
+                        <img src="assets/images/jpg/gris.jpg" class="card-img-top tamano-img-2" alt="Cargando imagen">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder">Noticia 2</span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-8"></span>
+
+                            </p>
+
+                            <button class="btn btn-primary btn-lg" type="button" disabled>
+                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                Cargando...
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100 shadow">
+                        <img src="assets/images/jpg/gris.jpg" class="card-img-top tamano-img-2" alt="Cargando imagen">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder">Noticia 3</span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-8"></span>
+
+                            </p>
+
+                            <button class="btn btn-primary btn-lg" type="button" disabled>
+                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                Cargando...
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card h-100 shadow">
+                        <img src="assets/images/jpg/gris.jpg" class="card-img-top tamano-img-2" alt="Cargando imagen">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title placeholder-glow">
+                                <span class="placeholder">Noticia 4</span>
+                            </h5>
+                            <p class="card-text placeholder-glow">
+                                <span class="placeholder col-7"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-6"></span>
+                                <span class="placeholder col-8"></span>
+                                <span class="placeholder col-8"></span>
+
+                            </p>
+
+                            <button class="btn btn-primary btn-lg" type="button" disabled>
+                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                Cargando...
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="container py-5">
+
+            <h2 class="mb-3 text-center text-lg-start">Reviews de Películas</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis soluta, perspiciatis quidem
+                repellendus maiores quia, officia, obcaecati ipsa repudiandae similique iste? Architecto impedit optio
+                dicta quidem, perferendis ducimus neque exercitationem magnam, repellendus corporis obcaecati amet ipsum
+                illum eum explicabo quod veritatis rerum nesciunt quas laudantium iste eligendi quae facere qui. Vitae
+                ut iste quaerat repellendus.
+            </p>
+
+
+            <div class="row g-4">
+
+
+                <div class="col-md-6 col-xl-3">
+                    <a tabindex="0" class="btn btn-lg btn-danger w-100" role="button" data-bs-toggle="popover"
+                        data-bs-trigger="focus" title="Película 1 - 10/10" data-bs-placement="bottom"
+                        data-bs-content="Lorem ipsum dolor sit amet consectetur adipisicing elit.">Película 1</a>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a tabindex="0" class="btn btn-lg btn-danger w-100" role="button" data-bs-toggle="popover"
+                        data-bs-trigger="focus" title="Película 2 - 10/10" data-bs-placement="bottom"
+                        data-bs-content="Lorem ipsum dolor sit amet consectetur adipisicing elit.">Película 2</a>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a tabindex="0" class="btn btn-lg btn-danger w-100" role="button" data-bs-toggle="popover"
+                        data-bs-trigger="focus" title="Película 3 - 10/10" data-bs-placement="bottom"
+                        data-bs-content="Lorem ipsum dolor sit amet consectetur adipisicing elit.">Película 3</a>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <a tabindex="0" class="btn btn-lg btn-danger w-100" role="button" data-bs-toggle="popover"
+                        data-bs-trigger="focus" title="Película 4 - 10/10" data-bs-placement="bottom"
+                        data-bs-content="Lorem ipsum dolor sit amet consectetur adipisicing elit.">Película 4</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="container py-5">
+
+            <h2 class="mb-3 text-center text-lg-start">Reviews de Videojuegos</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis soluta, perspiciatis quidem
+                repellendus maiores quia, officia, obcaecati ipsa repudiandae similique iste? Architecto impedit optio
+                dicta quidem, perferendis ducimus neque exercitationem magnam, repellendus corporis obcaecati amet ipsum
+                illum eum explicabo quod veritatis rerum nesciunt quas laudantium iste eligendi quae facere qui. Vitae
+                ut iste quaerat repellendus.
+            </p>
+
+
+            <div class="row g-4">
+
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark btn-lg w-100" data-bs-toggle="modal"
+                        data-bs-target="#modalUno">
+                        Videojuego 1
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalUno" tabindex="-1" aria-labelledby="modalUnoLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalUnoLabel">Contenido disponible solo para nuestros
+                                        socios
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Para continuar leyendo suscríbete a nuestro medio.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">OK</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark btn-lg w-100" data-bs-toggle="modal"
+                        data-bs-target="#modalDos">
+                        Videojuego 2
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalDos" tabindex="-1" aria-labelledby="modalDosLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalDosLabel">Contenido disponible solo para nuestros
+                                        socios
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Para continuar leyendo suscríbete a nuestro medio.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">OK</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark btn-lg w-100" data-bs-toggle="modal"
+                        data-bs-target="#modalTres">
+                        Videojuego 3
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalTres" tabindex="-1" aria-labelledby="modalTresLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalTresLabel">Contenido disponible solo para nuestros
+                                        socios
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Para continuar leyendo suscríbete a nuestro medio.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">OK</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark btn-lg w-100" data-bs-toggle="modal"
+                        data-bs-target="#modalCuat">
+                        Videojuego 4
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalCuat" tabindex="-1" aria-labelledby="modalCuatLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="modalCuatLabel">Contenido disponible solo para nuestros
+                                        socios
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Para continuar leyendo suscríbete a nuestro medio.
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary">OK</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="container py-5">
+            <h2 class="mb-3 text-center text-lg-start">El tiempo en Chile</h2>
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-info list-group-item-action active"
+                            id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab"
+                            aria-controls="list-home">
+                            Norte
+                        </a>
+                        <a class="list-group-item list-group-item-info list-group-item-action" id="list-profile-list"
+                            data-bs-toggle="list" href="#list-profile" role="tab"
+                            aria-controls="list-profile">Centro</a>
+                        <a class="list-group-item list-group-item-info list-group-item-action" id="list-messages-list"
+                            data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Sur</a>
+                        <a class="list-group-item list-group-item-info list-group-item-action" id="list-settings-list"
+                            data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                            Antártica
+                            <span
+                                class="position-absolute top-100 start-50 translate-middle badge rounded-pill bg-danger">
+                                Alerta de tormenta
+                                <span class="visually-hidden">Mensaje no visto</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 my-4 col-lg-8 my-lg-0">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <h4 class="text-center text-lg-start"><i class="fas fa-sun"></i> Zona norte <i
+                                    class="fas fa-sun"></i></h4>
+                            <P>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis illo at voluptatem
+                                assumenda? Sunt officiis minus vero iste facere ex odio eveniet quia voluptate autem
+                                architecto iure aperiam voluptates nesciunt voluptas corporis, suscipit harum cum
+                                obcaecati illum cupiditate esse possimus et. Nihil, dolorem labore ipsum sit aperiam
+                                consectetur fugit id, sed sapiente voluptas veritatis saepe!
+                            </P>
+
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">
+                            <h4 class="text-center text-lg-start"><i class="fas fa-cloud-sun"></i> Zona centro <i
+                                    class="fas fa-cloud-sun"></i></h4>
+                            <P>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis illo at voluptatem
+                                assumenda? Sunt officiis minus vero iste facere ex odio eveniet quia voluptate autem
+                                architecto iure aperiam voluptates nesciunt voluptas corporis, suscipit harum cum
+                                obcaecati illum cupiditate esse possimus et. Nihil, dolorem labore ipsum sit aperiam
+                                consectetur fugit id, sed sapiente voluptas veritatis saepe!
+                            </P>
+
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            <h4 class="text-center text-lg-start"><i class="fas fa-cloud-sun-rain"></i> Zona sur <i
+                                    class="fas fa-cloud-sun-rain"></i>
+                            </h4>
+                            <P>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis illo at voluptatem
+                                assumenda? Sunt officiis minus vero iste facere ex odio eveniet quia voluptate autem
+                                architecto iure aperiam voluptates nesciunt voluptas corporis, suscipit harum cum
+                                obcaecati illum cupiditate esse possimus et. Nihil, dolorem labore ipsum sit aperiam
+                                consectetur fugit id, sed sapiente voluptas veritatis saepe!
+                            </P>
+
+                        </div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <h4 class="text-center text-lg-start"><i class="far fa-snowflake"></i> <i
+                                    class="fas fa-poo-storm"></i> Antártica Chilena <i class="fas fa-poo-storm"></i> <i
+                                    class="far fa-snowflake"></i>
+                            </h4>
+                            <P>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis illo at voluptatem
+                                assumenda? Sunt officiis minus vero iste facere ex odio eveniet quia voluptate autem
+                                architecto iure aperiam voluptates nesciunt voluptas corporis, suscipit harum cum
+                                obcaecati illum cupiditate esse possimus et. Nihil, dolorem labore ipsum sit aperiam
+                                consectetur fugit id, sed sapiente voluptas veritatis saepe!
+                            </P>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class=" container py-5">
+
+            <h2 class="mb-3 text-center text-lg-start">Opiniones de nuestros lectores</h2>
+
+            <div class="row g-4">
+                <div class="col-12 col-sm-6">
+                    <div class="card shadow">
+                        <div class="row g-0">
+                            <div class="col-4 col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/images/jpg/cara_01.jpg"
+                                    class="img-fluid rounded-circle tamano-img-3 mt-sm-3 mt-md-0" alt="Persona 1">
+                            </div>
+                            <div class="col-8 col-sm-12 col-md-8">
+                                <div class="card-body text-sm-center text-md-start">
+                                    <h5 class="card-title">Personaje 1</h5>
+                                    <p>
+                                        <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#colapsableUno" aria-expanded="false"
+                                            aria-controls="colapsableUno">
+                                            Carta N°1
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="colapsableUno">
+                                        <div class="card card-body bg-secondary bg-opacity-10">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                            perspiciatis illum optio. Facere repellat molestias quod est earum sed
+                                            veritatis ad perspiciatis laboriosam.
+                                        </div>
+                                    </div>
+                                    <p class="card-text"><small class="text-muted">Publicado hace 30 minutos</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-6 ">
+                    <div class="card shadow">
+                        <div class="row g-0">
+                            <div class="col-4 col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/images/jpg/cara_02.jpg"
+                                    class="img-fluid rounded-circle tamano-img-3 mt-sm-3 mt-md-0" alt="Persona 2">
+                            </div>
+                            <div class="col-8 col-sm-12 col-md-8">
+                                <div class="card-body text-sm-center text-md-start">
+                                    <h5 class="card-title">Personaje 2</h5>
+                                    <p>
+                                        <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#colapsableDos" aria-expanded="false"
+                                            aria-controls="colapsableDos">
+                                            Carta N°2
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="colapsableDos">
+                                        <div class="card card-body bg-secondary bg-opacity-10">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                            perspiciatis illum optio. Facere repellat molestias quod est earum sed
+                                            veritatis ad perspiciatis laboriosam.
+                                        </div>
+                                    </div>
+                                    <p class="card-text"><small class="text-muted">Publicado hace 30 minutos</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-6 ">
+                    <div class="card shadow">
+                        <div class="row g-0">
+                            <div class="col-4 col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/images/jpg/cara_03.jpg"
+                                    class="img-fluid rounded-circle tamano-img-3 mt-sm-3 mt-md-0" alt="Persona 3">
+                            </div>
+                            <div class="col-8 col-sm-12 col-md-8">
+                                <div class="card-body text-sm-center text-md-start">
+                                    <h5 class="card-title">Personaje 3</h5>
+                                    <p>
+                                        <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#colapsableTres" aria-expanded="false"
+                                            aria-controls="colapsableTres">
+                                            Carta N°3
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="colapsableTres">
+                                        <div class="card card-body bg-secondary bg-opacity-10">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                            perspiciatis illum optio. Facere repellat molestias quod est earum sed
+                                            veritatis ad perspiciatis laboriosam.
+                                        </div>
+                                    </div>
+                                    <p class="card-text"><small class="text-muted">Publicado hace 30 minutos</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-6 ">
+                    <div class="card shadow">
+                        <div class="row g-0">
+                            <div class="col-4 col-sm-12 col-md-4 d-flex justify-content-center align-items-center">
+                                <img src="assets/images/jpg/cara_04.jpg"
+                                    class="img-fluid rounded-circle tamano-img-3 mt-sm-3 mt-md-0" alt="Persona 4">
+                            </div>
+                            <div class="col-8 col-sm-12 col-md-8">
+                                <div class="card-body text-sm-center text-md-start">
+                                    <h5 class="card-title">Personaje 4</h5>
+                                    <p>
+                                        <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#coalpsableCuatro" aria-expanded="false"
+                                            aria-controls="coalpsableCuatro">
+                                            Carta N°4
+                                        </button>
+                                    </p>
+                                    <div class="collapse" id="coalpsableCuatro">
+                                        <div class="card card-body bg-secondary bg-opacity-10">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                            perspiciatis illum optio. Facere repellat molestias quod est earum sed
+                                            veritatis ad perspiciatis laboriosam.
+                                        </div>
+                                    </div>
+                                    <p class="card-text"><small class="text-muted">Publicado hace 30 minutos</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bg-secondary bg-opacity-10">
+
+            <div class="container py-5">
+
+                <h2 class="mb-3 text-center text-lg-start">¿Quieres denunciar algo?</h2>
+
+                <P>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fuga perferendis neque nostrum
+                    laudantium? Consequuntur ea ipsa dignissimos dolorum quod assumenda iusto vel cum sapiente facere
+                    obcaecati, magni inventore odit porro consectetur impedit molestias accusamus illum unde ipsam ab,
+                    ratione, incidunt pariatur! Odio et ea deserunt ut architecto inventore, repudiandae vel nobis quia
+                    facilis atque!
+                </P>
+
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-warning btn-lg mb-3" id="liveAlertBtn">Contactanos</button>
+
+                </div>
+
+                <div id="liveAlertPlaceholder"></div>
+
+            </div>
+
+
+            <div class="container py-5">
+
+                <h2 class="mb-3 text-center text-lg-start">Apoya a DIGINEWS 24 con una donación</h2>
+
+                <p>
+                    Gracias a aportes como el tuyo es que este medio se mantiene independiente. Lorem ipsum dolor sit
+                    amet,
+                    consectetur adipisicing elit. Alias, quod ducimus tempore aspernatur impedit explicabo magnam, iste
+                    deleniti earum recusandae ullam nam animi autem accusamus eligendi distinctio blanditiis, molestias
+                    dolore exercitationem beatae iure? Eaque, magni labore alias saepe nulla rerum quidem quis earum eos
+                    aperiam quod fuga minus quos, voluptatum, ex adipisci asperiores. Fugiat maiores voluptate
+                    perspiciatis
+                    hic nam aut quibusdam, eveniet distinctio id ut animi eius neque ea quis ipsa. Voluptate deserunt,
+                    excepturi earum odio corrupti nobis cum iusto?
+                </p>
+
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasOne" aria-controls="offcanvasOne">
+                        Hacer una donación
+                    </button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasOne"
+                        aria-labelledby="offcanvasOneLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasOneLabel">Donar</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="row g-3">
+                                <div class="row g-3">
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Nombre">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" class="form-control" placeholder="Apellido">
+                                    </div>
+
+                                    <div class="input-group col-12">
+                                        <span class="input-group-text">CLP $</span>
+                                        <input type="number" class="form-control" placeholder="Monto">
+                                    </div>
+
+                                    <div class="col-12 my-5 d-flex justify-content-center">
+                                        <button type="button" class="btn btn-warning btn-lg" id="liveToastBtn">Pagar con
+                                            webpay</button>
+                                    </div>
+
+                                    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                                        <div id="liveToast" class="toast" role="alert" aria-live="assertive"
+                                            aria-atomic="true">
+                                            <div class="toast-header">
+                                                <strong class="me-auto"><i
+                                                        class="fas fa-exclamation-triangle text-danger"></i>
+                                                    Error</strong>
+
+                                                <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="toast-body">
+                                                En estos momentos no podemos procesar su transacción. Por favor intente
+                                                nuevamente.
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="container py-5">
+
+                <h2 class="mb-3 text-center text-lg-start">Preguntas frecuentes</h2>
+
+
+                <div class="accordion" id="acordeonPreguntas">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                ¿Qué es Diginews 24?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#acordeonPreguntas">
+                            <div class="accordion-body bg-secondary bg-opacity-25">
+                                <p>
+                                    Una fundación sin fines de lucro que promueve y ejerce el periodismo de
+                                    investigación.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Pregunta N° 2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#acordeonPreguntas">
+                            <div class="accordion-body bg-secondary bg-opacity-25">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus veniam ea
+                                    optio
+                                    provident dicta repellendus quos modi quibusdam exercitationem? Omnis totam
+                                    doloremque
+                                    alias quia iusto laborum aliquam consectetur vel aperiam nihil impedit minus quaerat
+                                    molestias fugit quas eaque delectus quisquam, ut voluptas officia voluptatum! Ut
+                                    dicta,
+                                    dolores quaerat doloribus nisi reprehenderit earum accusamus eaque fugiat minus.
+                                    Voluptatum magni quis inventore doloremque atque eos rem sunt, corrupti esse
+                                    provident
+                                    illum neque dignissimos officiis asperiores. Consequatur enim, labore quo qui
+                                    consectetur autem distinctio expedita voluptatibus odio esse ipsa quaerat quia unde
+                                    debitis soluta saepe, incidunt vitae fugit sapiente eligendi? Aspernatur, nisi
+                                    nobis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Pregunta N° 3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#acordeonPreguntas">
+                            <div class="accordion-body bg-secondary bg-opacity-25">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laboriosam ullam
+                                    molestiae
+                                    aspernatur unde consequuntur animi esse molestias in, fugiat officia commodi est
+                                    sapiente amet voluptas obcaecati veritatis cum perferendis libero natus alias.
+                                    Incidunt,
+                                    quod itaque saepe unde, optio voluptates consectetur nemo natus tempore ipsum
+                                    aliquam.
+                                    Quis id ipsam quidem, delectus nesciunt ab sit eligendi, quibusdam consequuntur quia
+                                    sunt eveniet voluptatibus assumenda reiciendis harum quaerat dignissimos soluta.
+                                    Pariatur molestiae repellendus expedita voluptatum reiciendis veniam consequatur
+                                    sequi
+                                    nemo aut repudiandae ipsam ut iure recusandae quibusdam fugiat, iste impedit
+                                    sapiente
+                                    modi nisi quos quo vero! Quia quae consequatur excepturi velit, minus architecto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Pregunta N° 4
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#acordeonPreguntas">
+                            <div class="accordion-body bg-secondary bg-opacity-25">
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa illo accusamus magni
+                                    corrupti eveniet blanditiis quo, non amet tempore exercitationem, earum ad nihil
+                                    quia,
+                                    beatae recusandae ea aliquam cumque. Dolores nihil, eveniet dolorum quae nostrum
+                                    temporibus eius dolore quibusdam deserunt possimus qui accusamus consequuntur
+                                    cumque.
+                                    Nisi tempora est temporibus ipsam fugiat at, neque esse aliquam tempore porro vel
+                                    assumenda veritatis nesciunt nobis, rem alias velit totam aut deserunt. Officiis
+                                    optio
+                                    veniam quas quos nam, ab repudiandae nihil earum ipsam omnis! Eligendi adipisci
+                                    sapiente
+                                    velit voluptate molestiae officiis, ex perspiciatis delectus laborum dicta ab
+                                    voluptates
+                                    magni explicabo quidem dolorem nemo nobis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer class="bg-dark">
+
+        <div class="container fw-bold text-uppercase py-3">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link link-secondary " aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-secondary" href="#">Donar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-secondary" href="#">Señal en vivo</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="dropdown-divider bg-white"> </div>
+        </div>
+
+        <div class="container pb-3">
+
+            <p class="m-0 py-3 text-center text-white "> © 2022. Ningún derecho reservado</p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JS de Bootstrap local -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- JS personal -->
+    <script src="assets/js/script.js"></script>
+
+
+</body>
+
+</html>

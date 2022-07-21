@@ -1,0 +1,22 @@
+/* Imágenes del carrusel */
+.tamano-img-1{
+    height: 450px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+/* Imágenes de las card de noticias*/
+.tamano-img-2{
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+/* Imágenes de las card de opiniones de nuestros lectores*/
+.tamano-img-3{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
