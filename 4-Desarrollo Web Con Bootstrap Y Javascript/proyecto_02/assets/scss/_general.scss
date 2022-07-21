@@ -1,0 +1,174 @@
+// navbar (para efecto con script.js)
+#navx.bg-opacity-10{
+    transition: 1000ms !important;
+}
+
+#navx.bg-opacity-100{
+    transition: 1000ms !important;
+}
+
+// Fuente logo
+.fl{
+    font-family: $font-logo;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+//Linea azul al lado del logo
+.azul-p{
+    color: #32b0ee;
+}
+
+//tamaño texto
+@for $tam from 0 through 70 {
+    .f-#{$tam}{
+        font-size: $tam * 1px;
+    }
+    @media (max-width:575.5px) {
+        .f-xs-#{$tam}{
+            font-size: $tam * 0.9px !important;
+        }
+    }
+} 
+
+//font weight
+.fw-semi-bold{
+    font-weight: $font-weight-semi-bold !important;
+}
+.fw-extra-bold{
+    font-weight: $font-weight-extra-bold !important;
+}
+
+// logos banner
+.logos{
+    transform: translateY(50px);
+}
+
+// imagen banner 
+.banner{
+    background-image: url(../images/banner.jpg);
+    height: 755px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment:fixed;
+}
+
+// linea de los lados
+.linea{
+    bottom: 6px;
+}
+
+// links banner
+.link-light{
+    transition: 800ms;
+}
+
+.link-light:hover{
+    color: white;
+    opacity: 1 !important;
+    
+}
+
+//botones del carrusel (todos)
+.carousel-indicators button{
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 100%;
+}
+
+// carousel-caption (carrusel uno - banner)
+#carruselUno .carousel-caption {
+    // position: absolute;
+    // right: 15%;
+    bottom: 10%;
+    z-index: 2;
+    // left: 15%;
+    // padding-top: 1.25rem;
+    // padding-bottom: 1.25rem;
+    // color: #fff;
+    // text-align: center;
+}
+
+// carousel-indicators (dos)
+#carruselDos .carousel-indicators button{
+    transform: translateY(55px);
+}
+
+//Features
+.circ-uno{
+    width: 50px;
+    height: 50px;
+}
+
+//Works
+.btn-h{
+    height: 25px;
+}
+
+.taw{
+    width: 55px;
+    height: 55px;
+}
+
+//Hover Works y Meet our team
+.info{
+    // position: absolute;
+    z-index: 5;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: space-around;
+    // justify-items: center;
+    opacity: 0;
+    transition: 500ms;
+}
+
+.card-h:hover{
+    .info{
+        opacity: .9;
+    }
+    .card-title{
+        color: #0eb493;
+    }
+}
+
+.ta-log i{
+    width: 20px;
+}
+
+// some fun facts 
+.facts{
+    background-image: linear-gradient(rgba(6, 32, 51, 0.8), rgba(6, 32, 51, 0.8)), url(../images/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment:fixed;
+}
+
+.facw{
+    width: 120px;
+    height: 120px;
+}
+
+// botonones cambio de modo
+.botones {
+    width: fit-content;
+    button{
+        width: 135px;
+    }
+}
+
+// Tiempo del cambio de color
+.bg-primary{
+    transition: 1000ms !important;
+}
+.bg-dark{
+    transition: 1000ms !important;
+}
+.bg-black{
+    transition: 1000ms !important;
+}
+.bg-white{
+    transition: 1000ms !important;
+}
