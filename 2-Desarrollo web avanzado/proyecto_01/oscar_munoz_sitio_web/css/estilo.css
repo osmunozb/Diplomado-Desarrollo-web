@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'helloregular';
+    src: url('../fonts/hello-webfont.woff2') format('woff2'),
+         url('../fonts/hello-webfont.woff') format('woff'),
+         url('../fonts/hello.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,
+h2{
+    font-family: 'helloregular';
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+header img{
+    padding: 22px;
+}
+
+/* main{
+    display: flex;
+} */
+
+h1,
+h2{
+    padding: 20px 20px 0px 22px;
+}
+
+section{
+    width: 50%;
+    padding: 20px 20px 20px 22px;
+}
+
+main img{
+    width: 50%;
+    padding: 0px 20px 20px 22px;
+}
+
+#texto h1,
+#texto h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section p:nth-child(2) {
+    color:#e31463;
+}
+
+section p:nth-child(3) {
+    color: #f7cb63;
+}
+
+
+p{
+    padding: 0px 0px 20px 0px;
+
+}
+
+button{
+    background-color: #fd024c;
+    width: 50px;
+}
+
