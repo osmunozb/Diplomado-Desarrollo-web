@@ -1,0 +1,962 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'bikoregular';
+    src: url('../fonts/biko_regular-webfont.woff2') format('woff2'),
+         url('../fonts/biko_regular-webfont.woff') format('woff'),
+         url('../fonts/biko_regular.otf') format('otf');  
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bikobold';
+    src: url('../fonts/biko_bold-webfont.woff2') format('woff2'),
+         url('../fonts/biko_bold-webfont.woff') format('woff'),
+         url('../fonts/biko_bold.otf') format('otf');  
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* Home - Home -Home -Home -Home -Home -Home -Home -Home -Home -Home -Home */
+/* Home - Home -Home -Home -Home -Home -Home -Home -Home -Home -Home -Home */
+/* Home - Home -Home -Home -Home -Home -Home -Home -Home -Home -Home -Home */
+
+
+/* Header */
+
+.encabezado{
+    width: 100%;
+    background-color: #000000;
+    padding: 25px 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.encabezado a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.encabezado nav a{
+    margin: 0 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.encabezado a:hover{
+    color:#FFC915;
+}
+
+.encabezado a:active {
+    color: #F81E03;
+}
+
+.boton img{
+    padding: 0 8px 0 0;
+}
+
+.boton a{
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 9px 15px;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+
+/* main */
+/* banner */
+
+.banner{
+    height: 680px;
+    color: #fff;
+    text-align: end;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/jpg/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.banner{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner h1,
+.banner h3{
+    padding: 0 150px 0 0;
+    line-height: 50px;
+}
+
+.banner h3{
+    color: #FFC915;
+    font-weight:400;
+    font-size: 18px;
+}
+
+.banner h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.banner a{
+    background: #F81E03;
+    margin: 25px 150px 0 0;;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 15px 35px;
+
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.banner a:hover{
+    background:#FFC915;
+}
+
+.banner a:active {
+    background: #10C9C3;
+}
+
+.cc1{
+    color: #F9004D;
+}
+
+.cc2{
+    color: #FFC915;
+}
+
+
+
+
+/* Diplomado DW */
+
+.mini-sitio img{
+    padding: 0px 0 25px 150px;
+}
+
+.diplomado-dw{
+    font-family: 'Work Sans', sans-serif;
+    padding: 150px 0;
+}
+
+.intro{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 150px;
+}
+
+.diploma span{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.diploma h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.diploma p{
+    padding: 0 50px 0 0;
+    font-weight: 400;
+    font-size: 25px;
+    color: #707070;
+    line-height: 40px;
+}
+
+.diploma hr{
+    width: 110px;
+    border: 1px solid #000;
+    background: #000;
+    margin: 25px 0;
+}
+
+.video-yt iframe{
+    margin: 50px 0 0 0;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+/* Lo importante de CSS */
+
+.importante{
+    width: 100%;
+    background: #F81E03;
+    
+    font-family: 'Work Sans', sans-serif;
+    padding: 100px 150px 150px 150px;
+}
+
+.ti-imp{
+    text-align: center;
+    padding:  0 0 80px 0;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+}
+
+.grilla{
+    width: 100%;
+    text-align: left;
+    
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: auto auto;
+    gap: 2%;
+}
+
+
+
+.cuadro{
+    color: #fff;
+    background: #000;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.cuadro h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.cuadro p{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+/* fuentes */
+
+.fuentes h1:nth-child(1) {
+    text-align: center;
+    margin: 0 0 100px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.fuentes h1:nth-child(2) {
+    font-family: 'bikobold';
+    font-size: 60px; 
+}
+
+.fuentes h1:nth-child(3) {
+    font-family: 'bikoregular';
+    font-size: 60px;
+}
+
+.fuentes{
+    padding: 150px 150px;
+}
+
+.fuentes p{
+    padding: 25px 0 0 0;
+    font-family: 'bikoregular';
+    line-height: 40px;
+    font-size: 25px;
+}
+
+
+
+/* colores */
+
+.cuadro-color{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 0 100px 0;
+}
+
+.cuadro-color h1{
+    text-align: center;
+    padding: 30px 0 40px 0;
+    
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.colores{
+    width: 100%;
+    padding: 0 150px;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.color1{
+    background: #FFC915;
+    border-radius: 5px;
+    width: 100%;
+    height: 195px;
+    margin: 0 0 10px 0;
+}
+
+.color2{
+    background: #F9004D;
+    border-radius: 5px;
+    width: 100%;
+    height: 195px;
+    margin: 0 0 10px 0;
+}
+
+.color3{
+    background: #000000;
+    border-radius: 5px;
+    width: 100%;
+    height: 195px;
+    margin: 0 0 10px 0;
+}
+
+.color4{
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 100%;
+    height: 195px;
+    margin: 0 0 10px 0;
+}
+
+.texto p{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.texto p span{
+    font-weight: 700;
+}
+
+
+
+/* galería de imágenes */
+
+.galeria-imagenes h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px; 
+
+    text-align: center;
+    padding: 90px;
+}
+
+.galeria{
+    width: 100%;
+    padding: 20px 150px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,300px) ;
+    gap: 20px;
+}
+
+
+.galeria img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.objeto1{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+
+.objeto2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.objeto3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.objeto4{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+
+
+/* Contacto */
+
+.contacto{
+    padding: 155px 150px;
+}
+
+.contacto h1,
+.contacto p {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.contacto h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.contacto p {
+    padding: 25px 60px 70px 60px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #707070;
+}
+
+.formulario-contacto{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 30px;
+}
+
+.rellenar input,
+.rellenar textarea{
+    width: 100%;
+    padding: 10px 20px; 
+    margin: 5px 0;
+    border-radius: 3px;
+    border: solid 2px #B2B2B2;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.rellenar input[type="submit"]{
+    background: #F81E03;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.rellenar textarea::placeholder {
+    padding: 200px 0 0 0;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;  
+}
+
+
+
+/* Footer */
+
+.pie{
+    width: 100%;
+    background-color: #000000;
+    padding: 25px 150px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+.derecho{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.logos img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+/* Página Interior - Página Interior - Página Interior - Página Interior -Página Interior */
+/* Página Interior - Página Interior - Página Interior - Página Interior -Página Interior */
+/* Página Interior - Página Interior - Página Interior - Página Interior -Página Interior */
+
+
+/* main */
+/* banner */
+
+.banner-interior{
+    text-align: center;
+    height: 250px;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/jpg/banner.jpg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+
+/* centro-interior */
+
+.centro-interior{
+    padding: 150px 150px;
+    display: grid;
+    grid-template-columns:75% 23%;
+    gap: 2%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.estatico{
+    padding: 0 0 0 25px;
+   
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.estatico  img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+
+    grid-row: 1/3;
+}
+
+.parrafos p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 26px;
+}
+
+.parrafos h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    padding: 50px 0px;
+}
+
+
+
+/* Video */
+
+.video-mayor{
+    padding: 0 150px 25px 150px;
+    display: grid;
+    grid-template-columns:75% 25%;
+}
+
+.video01 video{
+    width: 100%;
+}
+
+
+
+/* Galeria interior */
+
+.imagenes-interior h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 50px 0 30px 0;
+}
+
+
+.imagenes-interior{
+    padding: 0 150px;
+}
+
+.galeria-interior{
+    display: grid;
+    grid-template-columns:75% 25%;
+}
+
+
+
+.araña img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+    object-position: 50% 50%;
+}
+
+
+
+
+.imagenes-cuadradas{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 200px 200px;
+}
+
+
+
+/* Ultima sección */
+
+.ultimo{
+    padding: 200px 150px 300px 150px;
+  
+    font-family: 'Work Sans', sans-serif;
+}
+
+.ultimo-titulo{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0 0 50px 0;
+    text-align: center;
+}
+
+.linea{
+    display: grid;
+    grid-template-columns: repeat(4,23.5%);
+    gap: 2%;
+}
+
+.cuadro-interior{
+    background: #000;
+    color: #fff;
+    padding: 40px 0 110px 20px;
+    border-radius: 10px;
+}
+
+.cuadro-interior h1{
+    font-weight: 600;
+    font-size: 26px;
+    padding: 15px 0 0 0;
+}
+
+
+
+
+
+
+/* media query *//* media query *//* media query *//* media query *//* media query */
+/* media query *//* media query *//* media query *//* media query *//* media query */
+
+@media (max-width: 768px){
+
+    /* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home */
+    /* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home *//* Home */
+
+    /* header */
+
+    .encabezado{
+        background: #4403f8;
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;  
+        
+        text-align: center;
+        padding: 5px 50px;
+    }
+    
+
+    .encabezado nav{
+        display: grid
+    }
+
+    .encabezado nav a{
+        margin: 5px 0;
+    }
+
+
+    
+    /* main */
+    /* banner */
+    .banner{
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner h1,
+    .banner h3{
+        padding: 0 50px;
+    }
+    .banner a{
+        margin: 25px 0 0 0;
+    }
+
+
+
+    /* Diplomado DW */
+
+    .mini-sitio img{
+        padding: 0 0 25px 0;
+    }
+
+    .mini-sitio{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .intro{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+        text-align: center;
+        gap: 0;
+    }
+
+    .diploma hr{
+        width: 100%;
+        border: 1px solid #000;
+        background: #000;
+        margin: 25px 0;
+    }
+
+    .diploma p{
+        padding: 0;
+    }
+
+
+
+    /* Lo importante de CSS */
+
+    .grilla{
+        width: 100%;
+        
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+
+
+
+    /* Fuentes */
+
+    .fuentes{
+        padding: 150px 50px;
+    }
+ 
+    .fuentes h1:nth-child(2) {
+        text-align: center;
+    }
+    
+    .fuentes h1:nth-child(3) {
+        text-align: center;
+    }
+
+    .fuentes p{
+        text-align: center;
+    }
+
+
+
+    /* Colores */
+
+    .cuadro-color{
+        padding: 0 0 100px 0;
+    }
+    
+    .colores{
+        grid-template-columns: 1fr;
+        gap:50px;
+        
+        text-align: center;
+    }
+
+
+
+    /* Galería de imágenes */
+
+    .galeria{
+        width: 100%;
+        padding: 20px 50px;
+    
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,200px) ;
+        gap: 20px;
+    }
+
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,200px) ;
+        gap: 20px;
+    }
+
+    .objeto1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .objeto2{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .objeto3{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .objeto4{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+
+
+    /* Contacto */
+
+    .contacto{
+        padding: 150px 50px;
+    }
+
+    .contacto p {
+        padding: 25px 0px 70px 0px;
+    }
+    
+    .formulario-contacto{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 500px;
+    }
+
+
+
+    /* Footer */
+
+    .pie{
+        background: #4403f8;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;  
+        
+        text-align: center;
+        padding: 25px 50px;
+    }
+
+    
+
+
+
+
+    /* Interior *//* Interior *//* Interior *//* Interior *//* Interior */
+    /* Interior *//* Interior *//* Interior *//* Interior *//* Interior */
+    /* Interior *//* Interior *//* Interior *//* Interior *//* Interior */
+
+    /* Banner Interior */
+    
+    .banner-interior h1{
+        padding: 0 50px;
+    }
+
+    .centro-interior{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 150px 50px;
+    }
+
+    .parrafos p{
+        text-align: center;
+    }
+
+    .estatico{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows: auto;
+    }
+
+    .estatico img{
+        padding: 20px 0 0 0;
+        width: 100%;
+        grid-column: 2;
+        height: 400px;
+    }
+    /* Video interior */
+
+    .video-mayor{
+        padding: 0 50px 25px 50px;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+
+
+    /* Galería Interior */
+
+    .imagenes-interior{
+        padding: 0 50px;
+    }
+
+    .imagenes-interior h1{
+        text-align: center;
+    }
+
+    .galeria-interior{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .imagenes-cuadradas{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: 150px 150px;
+    }
+
+
+
+    /* Ultimo contenido */
+
+    .linea{
+        display: grid;
+        grid-template-columns: 100%;
+
+        gap: 50px;
+    }
+
+
+}
+
