@@ -1,0 +1,61 @@
+/* REQUISTOS +++++++++++++++++++++++++++++++ */
+
+.requisitos{
+    background: linear-gradient(rgba(103,0,206,0.44),rgba(103,0,206,0.44)), url(../images/jpg/banner_requisitos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    h1{
+        color: $color-blanco;
+        font-family: $font-primaria;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: $bold;
+    }   
+}
+
+.pensando{
+    font-family: $font-primaria;
+    h2{
+        font-size: 32px;
+        font-weight: $bold;
+        color: $color-azul-prusia;
+        padding: 30px 0;
+        text-transform: uppercase;
+    }
+    img{
+        width: 100%;
+        height: 310px;
+        object-fit: cover;
+        
+        object-position: 50% 50%;
+        
+    }
+    p{
+        font-size: 16px;
+        font-weight: $medium;
+        color: $color-gris-texto;
+        padding: 0 0 25px 0;
+        text-align: justify;
+    }
+    
+    &__1{
+        display: grid;
+        grid-template-columns: 49.5% 49.5%;
+        gap: 1%;
+        padding: 25px 0 60px 0; 
+        p:nth-child(3){
+            padding-top: 30px;
+        }
+    }
+    &__2{
+        display: grid;
+        grid-template-columns: 49.5% 49.5%;
+        gap: 1%;
+        padding: 60px 0 100px 0;
+    }
+}

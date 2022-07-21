@@ -1,0 +1,93 @@
+/* Header */
+.header{
+    font-family: $font-primaria;
+    h2{
+        font-family: $font-secundaria;
+    }
+    li{
+        display: inline-block;
+        a{
+            text-decoration: none;
+        }
+    }
+    &__1{
+        background-color: $color-blanco;
+    }
+    &__2{
+        background-color: $color-morado;
+    }
+}
+
+.container{
+    width: 76%;
+    margin: 0 auto;
+}
+
+.blanco{
+    font-size: 9px;
+    padding: 15px 0;
+    font-weight: $medium;
+    display: flex;
+    justify-content: space-between;
+    color: $color-morado;
+    li{
+        margin-right: 15px;
+        a{
+            color: $color-morado;
+            display: inline-block;
+            transition: 0.5s;
+        }
+        a:hover{
+            color: black;
+            transform: scale(1.2);
+            
+        }
+    }
+    &__telefono, &__enlaces, &__sesion, &__redes {
+        display: flex;
+        align-items: center;        
+    }
+    &__enlaces ul li:nth-child(2){
+        border-left: solid 1px $color-azul-prusia;
+        border-right: solid 1px $color-azul-prusia;
+        border-radius: .5px;
+        padding: 0 15px;
+    }
+    &__telefono i, &__sesion i{
+        font-size: 15px;
+        transform: translateY(5px);
+    }
+    &__redes li{
+        font-size: 20px;
+        margin: 0 0 0 15px;
+    }
+}
+
+.morado{
+    font-size: 13px;
+    padding: 20px 0;
+    font-weight: $medium;
+    display: flex;
+    justify-content: space-between;
+    color: $color-blanco;
+    h2{
+        font-size: 33px;
+        font-weight: $bold;
+    }
+    li {
+        padding-left: 35px;
+        a{
+            color: $color-blanco;
+            display: inline-block;
+            transition: 0.5s;
+        }
+        a:hover{
+            color:cyan;
+            transform: scale(1.2);
+        }
+    }
+    &__navbar ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

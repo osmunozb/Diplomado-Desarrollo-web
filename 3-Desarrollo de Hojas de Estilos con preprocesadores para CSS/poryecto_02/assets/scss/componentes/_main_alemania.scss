@@ -1,0 +1,268 @@
+/* ALEMANIA +++++++++++++++++++++++++++++++++ */
+
+.container3{
+    width: 66%;
+    margin: 0 auto;
+}
+
+.oriental{
+    font-family: $font-primaria;
+    padding-bottom: 70px;
+    h2{
+        color: $color-azul-prusia;
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: $bold;
+        line-height: 33px;
+        padding: 30px 0 15px 0;
+    }
+}
+
+.vacacion{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 68% 30%;
+    gap: 2%;
+    &__izq{
+        height: 500px;
+        background-image: url(../images/jpg/vacaciones.jpg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position: 30% 50%;
+        border-radius: 5px;
+        display: grid;
+        grid-template-rows: 55% 45%;
+        &__1{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-size: 41px;
+            color: rgba(103,0,206,.46);
+        }
+        &__2{
+            display: flex;
+            align-items: flex-end;
+            img{
+                width: 140px;
+                padding: 0 0 5px 5px;
+                border-radius: 5px;
+            }
+        }
+    }
+    &__der{
+        &__1{
+            height: 250px;
+            margin-bottom: 18px;
+            background-color: $color-morado;
+            border-radius: 10px;
+            color: $color-blanco;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: justify;
+            p{
+                padding: 0 5%;
+            }
+            div{
+                p:nth-child(1){
+                    font-size: 20px;
+                    font-weight: $medium;
+                    line-height: 23px
+                }
+                p:nth-child(2){
+                    font-family: $font-tercera;
+                    font-size: 25px;
+                    font-weight: $extra-bold;
+                    line-height: 31px;
+                    span{
+                        font-family: $font-primaria;
+                        font-size: 36px; 
+                        font-weight: $bold;
+                        vertical-align: text-bottom;
+                    }
+                }
+            }
+            &__btn{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                margin: 10px 0;
+                a{
+                    @extend %btn6;
+                }
+            }
+        }
+        &__2{
+            height: 250px;
+            background-color: $color-morado;
+            border-radius: 10px;
+            color: $color-blanco;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+            p{
+                padding: 0 5%;
+            }
+            div:nth-child(1){
+                font-size: 15px;
+                font-weight: $bold;
+                line-height: 18px;
+            }
+            div:nth-child(2){
+                font-size: 13px;
+                font-weight: $medium;
+                line-height: 15px;
+            }
+            &__btn{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                margin: 10px 0;
+                a{
+                    @extend %btn6;
+                }
+            }
+        }
+    }
+}
+
+.parrafote{
+    font-size: 13px;
+    font-weight: $medium;
+    line-height: 15px;
+    color: $color-gris-texto;
+    padding-bottom: 35px;
+}
+
+.cotiza{
+    color: $color-blanco;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0,42,74,0.51),rgba(0,42,74,0.51)), url(../images/jpg/cotizar.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 0 25px 0;
+    h3{
+        margin: 50px 5%;
+        font-size: 25px;
+        font-weight: $extra-bold;
+    }
+    &__form{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 0 5%;
+        h4{
+            padding: 0 0 45px 0;
+            font-size: 14px;
+            font-weight: $medium;
+        }
+        label{
+            font-family: $font-tercera;
+            font-size: 11px;
+            font-weight: $semi-bold;
+        }
+        input{
+            font-family: $font-tercera;
+            font-size: 20px;
+            line-height: 27px;
+            font-weight: $semi-bold;
+            color: $color-gris-input-3;
+            border: 1px solid $color-claro-borde;
+            border-radius: 4px;
+        }
+        input::placeholder{
+            color: $color-gris-input-3;
+        }
+        &__1{
+            border-right: 1px solid $color-blanco;
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding-right: 20px;
+                padding-bottom: 30px;
+            }   
+        }
+        &__2{
+            padding-left: 20px;
+            div{
+                padding-bottom: 14.5px;
+            }
+            div:nth-child(3){
+        
+                padding-bottom: 5px;
+            }
+        }
+    }
+    &__btn{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 10px 0;
+        a{
+            @extend %btn6;
+            
+        }
+    }
+}
+
+.datos{
+    &__1{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        gap: 4%;
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__2{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        gap: 4%;
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+        &__vuelta{
+            position: relative;
+            
+            i{
+                color: $color-gris-input-2;
+                position: absolute;
+                top:21px;
+                left: 90%;
+            }
+        }
+    }
+    &__3{
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+        textarea{
+            font-family: $font-tercera;
+            font-size: 20px;
+            font-weight: $semi-bold;
+            color: $color-gris-input-3;
+        }
+        textarea::placeholder{
+            color: $color-gris-input-3;
+        }
+    }
+    &__4{
+        h5{
+            padding-bottom: 8px;
+        }
+        &__eje{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+        }
+    }
+}
+

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <!-- Google fonts (Montserrat - Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Open+Sans:wght@600;800&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d1b5388e0f.js" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <div class="header__1">
+
+            <div class="blanco container">
+
+                <div class="blanco__telefono">
+                    <ul>
+                        <li><i class="fas fa-phone-alt"></i> Mesa Central (+56 2) 1111 1111</li>
+                        <li><i class="fas fa-phone-alt"></i> Mesa Central (+56 2) 1111 1111</li>
+
+                    </ul>
+                </div>
+
+                <nav class="blanco__enlaces">
+                    <ul>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Novedades</a></li>
+                        <li><a href="#">Quiénes somos</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="blanco__sesion">
+                    <ul>
+                        <li><a href="#">Iniciar sesión <i class="fas fa-user"></i></a></li>
+                        <li><a href="#">Registrarse <i class="fas fa-user"></i></a></li>
+                    </ul>
+                </nav>
+
+                <div class="blanco__redes">
+                    <ul>
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-linkedin"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="header__2">
+            <div class="morado container">
+
+                <h2>CloudSky</h2>
+
+                <nav class="morado__navbar">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="paquetes.html">Paquetes</a></li>
+                        <li><a href="requisitos.html">Cruceros</a></li>
+                        <li><a href="alemania.html">Asistencia <br> en viaje</a></li>
+                        <li><a href="resultado.html">Viajes para <br> empresas</a></li>
+                        <li><a href="#">Reuniones <br> y eventos</a></li>
+                        <li><a href="#">Viajes de <br> Experiancias</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+
+    <main>
+
+        <section class="banner">
+            <div class="banner__viaje">
+                <h1>Volvamos a viajar</h1>
+                <h2>Isla de pascua</h2>
+                <p>Vuelo + hotel</p>
+                <div class="banner__desde">
+                    <p>Desde <br> <span>CLP$</span></p>
+                    <p>860.600</p>
+                </div>
+                <a class="banner__btn" href="#">Cotiza tus fechas</a>
+            </div>
+
+            <div class="formu">
+
+            </div>
+
+
+        </section>
+
+        <div class="buscador">
+            <div class="lateral">
+                <ul>
+                    <li><span><a href="#"><i class="fas fa-plane-departure"></i> Vuelos</a></span> <span class="triangulo"></span> </li>
+                    <li><a href="#"><i class="fas fa-plane-departure"></i> <i class="fas fa-h-square"></i> Vuelos +
+                            Hotel</a></li>
+                    <li><a href="#"><i class="fas fa-h-square"></i> Hoteles</a></li>
+                    <li><a href="#"><i class="fas fa-suitcase"></i> Paquetes</a></li>
+                    <li><a href="#"><i class="fas fa-h-square"></i> Booking</a></li>
+                    <li><a href="#"><i class="fas fa-briefcase"></i> Asistencia en viaje </a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="rellenar">
+                <form class="rellenar__form">
+                    <div class="rellenar__form__1">
+
+
+                        <div>
+                            <label for="origen">Origen</label>
+                            <input type="text" id="origen" placeholder="Santiago de Chile  - Chile " required>
+                        </div>
+
+                        <i class="fas fa-chevron-right"></i>
+
+                        <div>
+                            <label for="destino">Destino</label>
+                            <input type="text" id="destino" placeholder="Nueva York  - EUA - Estados Unidos de"
+                                required>
+
+                        </div>
+                    </div>
+
+
+                    <div class="rellenar__form__2">
+
+                        <div>
+                            <input type="checkbox" id="solo">
+                            <label for="solo" class="">Solo ida</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="idayvuelta">
+                            <label for="idayvuelta" class="">Ida y vuelta</label>
+
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="directo">
+                            <label for="directo" class="form__label">Vuelos directos</label>
+
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="equipaje">
+                            <label for="equipaje" class="form__label">Solo vuelos con equipajes</label>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="rellenar__form__3">
+
+                        <div>
+                            <label for="ida">Ida</label>
+                            <input type="date" id="ida">
+                        </div>
+
+                        <div>
+                            <label for="vuelta">Vuelta</label>
+                            <input type="date" id="vuelta">
+
+                        </div>
+
+                        <div>
+                            <label for="pasajeros">Pasajeros</label>
+                            <input type="text" id="pasajeros" placeholder="Pasajeros" required>
+                            <i class="fas fa-user"></i>
+
+                        </div>
+
+                    </div>
+
+                </form>
+
+                <div class="rellenar__buscar">
+                    <div>
+                        <ul>
+                            <li>+ Más opciones</li>
+                            <li>+ Agregar otro destino</li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+                        <a href="#">Busca tu vuelo</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <section class="viajes">
+
+            <div class="container">
+                <h2>Lorem ipsum <br> <span>Lorem ipsum lorem ipsum</span> </h2>
+            </div>
+
+            <div class="container2">
+                <div class="flecha">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <div class="destinos">
+
+                    <div class="destinos__oferta">
+                        <div class="destinos__oferta__text">
+                            <img src="assets/images/jpg/estatua.jpg" alt="Estatua de la libertad">
+                            <h3>New york</h3>
+
+                            <div>
+                                <p>Desde </p>
+                                <p><span>$</span>366.000</p>
+                                <p>Oferta </p>
+                                <p><span>$</span>266.000</p>
+                            </div>
+                            <div class="destinos__oferta__text__btn">
+                                <a href="#">Quiero cotizar</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="destinos__oferta">
+                        <div class="destinos__oferta__text">
+                            <img src="assets/images/jpg/estatua.jpg" alt="Estatua de la libertad">
+                            <h3>New york</h3>
+                            <div>
+                                <p>Desde </p>
+                                <p><span>$</span>366.000</p>
+                                <p>Oferta </p>
+                                <p><span>$</span>266.000</p>
+                            </div>
+                            <div class="destinos__oferta__text__btn">
+                                <a href="#">Quiero cotizar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinos__oferta">
+                        <div class="destinos__oferta__text">
+                            <img src="assets/images/jpg/estatua.jpg" alt="Estatua de la libertad">
+                            <h3>New york</h3>
+                            <div>
+                                <p>Desde </p>
+                                <p><span>$</span>366.000</p>
+                                <p>Oferta </p>
+                                <p><span>$</span>266.000</p>
+                            </div>
+                            <div class="destinos__oferta__text__btn">
+                                <a href="#">Quiero cotizar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destinos__oferta">
+                        <div class="destinos__oferta__text">
+                            <img src="assets/images/jpg/estatua.jpg" alt="Estatua de la libertad">
+                            <h3>New york</h3>
+                            <div>
+                                <p>Desde </p>
+                                <p><span>$</span>366.000</p>
+                                <p>Oferta </p>
+                                <p><span>$</span>266.000</p>
+                            </div>
+                            <div class="destinos__oferta__text__btn">
+                                <a href="#">Quiero cotizar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flecha">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="disfruta container">
+            <h2>Disfruta al máximo tu destino <br> <span>Con nuestra alianzas</span> </h2>
+
+            <div class="seguro">
+
+                <div class="seguro__info">
+                    <div class="seguro__info__text">
+
+
+                        <div class="seguro__info__text__parr">
+                            <p>Viaja y compra con <br> tranquilidad y <br> conoce tus <br> beneficios</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus in voluptatum non voluptas optio delectus provident animi mollitia, dolorem qui cupiditate tenetur modi, eaque voluptatem iure iste magnam, ad necessitatibus laudantium et assumenda perferendis. Obcaecati ad sequi id. Dolorum eligendi deleniti temporibus sequi numquam, quis nulla hic similique consectetur libero enim quidem non ratione incidunt unde consequatur in id? Incidunt aliquam ipsum recusandae voluptatum dolorem facere error aut sed adipisci! Iure voluptatibus eius fugiat, animi tempore iusto corporis totam accusantium beatae rem, quasi omnis consectetur earum odio. Quibusdam molestiae vitae itaque voluptatem, esse veritatis inventore commodi soluta architecto sunt vero debitis facilis, dicta quis iusto! Neque enim minima eius nostrum illo distinctio, libero, itaque, exercitationem recusandae explicabo est quis iste nesciunt eveniet? Excepturi, labore in facilis laborum earum alias sit cum nam! Sunt dolore deserunt explicabo quidem atque eum? Quisquam inventore consectetur neque cum consequuntur modi enim vel corrupti tempora?
+                            </p>
+                        </div>
+
+
+                        <div class="seguro__info__text__btn">
+                            <a href="#">Conoce Nuestras Alianzas</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="seguro__oferta">
+                    <div class="seguro__oferta__text">
+                        <img src="assets/images/jpg/viajeros.jpg" alt="Estatua de la libertad">
+                        <h3>Lorem ipsum</h3>
+                        <div>
+                            <p>Seguro de viaje, para <br> títulos de dos líneas</p>
+
+                            <p><span>Desde: <br> USD $</span>266.000</p>
+
+                        </div>
+                        <div class="seguro__oferta__text__btn">
+
+                            <a href="#">Quiero cotizar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="seguro__oferta">
+                    <div class="seguro__oferta__text">
+                        <img src="assets/images/jpg/viajeros.jpg" alt="Estatua de la libertad">
+                        <h3>Lorem ipsum</h3>
+                        <div>
+                            <p>Seguro de viaje, para <br> títulos de dos líneas</p>
+
+                            <p><span>Desde: <br> USD $</span>266.000</p>
+
+                        </div>
+                        <div class="seguro__oferta__text__btn">
+
+                            <a href="#">Quiero cotizar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="seguro__oferta">
+                    <div class="seguro__oferta__text">
+                        <img src="assets/images/jpg/viajeros.jpg" alt="Estatua de la libertad">
+                        <h3>Lorem ipsum</h3>
+                        <div>
+                            <p>Seguro de viaje, para <br> títulos de dos líneas</p>
+
+                            <p><span>Desde: <br> USD $</span>266.000</p>
+
+                        </div>
+                        <div class="seguro__oferta__text__btn">
+
+                            <a href="#">Quiero cotizar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <section class="experiencia">
+            <div class="container">
+                <h3>Han vivido la experiencia Cloud Sky</h3>
+            </div>
+
+            <div class="comentario container">
+                <div class="comentario__persona">
+                    <div class="comentario__persona__nombre">
+                        <img src="assets/images/jpg/cara_01.jpg" alt="Cara de una persona">
+                        <p>Persona 1 <br> <span>Hace 1 semana</span> </p>
+                    </div>
+                    <div class="comentario__persona__texto">
+                        <p>“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo error dolorem vel, illo ipsa assumenda.“</p>
+                    </div>
+                </div>
+
+
+                <div class="comentario__persona">
+                    <div class="comentario__persona__nombre">
+                        <img src="assets/images/jpg/cara_02.jpg" alt="Cara de una persona">
+                        <p>Persona 2 <br> <span>Hace 1 semana</span> </p>
+                    </div>
+                    <div class="comentario__persona__texto">
+                        <p>“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo error dolorem vel, illo ipsa assumenda.“</p>
+                    </div>
+                </div>
+
+
+                <div class="comentario__persona">
+                    <div class="comentario__persona__nombre">
+                        <img src="assets/images/jpg/cara_02.jpg" alt="Cara de una persona">
+                        <p>Persona 3 <br> <span>Hace 1 semana</span> </p>
+                    </div>
+                    <div class="comentario__persona__texto">
+                        <p>“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo error dolorem vel, illo ipsa assumenda.“</p>
+                    </div>
+                </div>
+
+
+                <div class="comentario__persona">
+                    <div class="comentario__persona__nombre">
+                        <img src="assets/images/jpg/cara_03.jpg" alt="Cara de una persona">
+                        <p>Persona 4 <br> <span>Hace 1 semana</span> </p>
+                    </div>
+                    <div class="comentario__persona__texto">
+                        <p>“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo error dolorem vel, illo ipsa assumenda.“</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="partners">
+
+                    <div class="partners__texto">
+                        <h4>Nuestros partners</h4>
+                        <p>Partners de gran trayectoria <br> Abalan nuestro trabajo</p>
+
+                    </div>
+
+
+
+
+                    <div class="partners__images">
+                        <img src="assets/images/svg/logo_01.svg" alt="Logo 1">
+                        <img src="assets/images/svg/logo_02.svg" alt="Logo 2">
+                        <img src="assets/images/svg/logo_03.svg" alt="Logo 3">
+                        <img src="assets/images/svg/logo_04.svg" alt="Logo 4">
+                        <img src="assets/images/svg/logo_05.svg" alt="Logo 5">
+                        <img src="assets/images/svg/logo_06.svg" alt="Logo 6">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="pagar">
+
+
+                    <div class="pagar__texto">
+                        <h4>Elige cómo pagar</h4>
+                        <p>Lorem Ipsum is simply</p>
+
+                    </div>
+
+
+                    <div class="pagar__images">
+                        <img src="assets/images/svg/forma_pago_01.svg" alt="Forma de pago 1">
+                        <img src="assets/images/svg/forma_pago_02.svg" alt="Forma de pago 2">
+                        <img src="assets/images/svg/forma_pago_03.svg" alt="Forma de pago 3">
+                        <img src="assets/images/svg/forma_pago_04.svg" alt="Forma de pago 4">
+                        <img src="assets/images/svg/forma_pago_05.svg" alt="Forma de pago 5">
+                        <img src="assets/images/svg/forma_pago_06.svg" alt="Forma de pago 6">
+                        <img src="assets/images/svg/forma_pago_07.svg" alt="Forma de pago 7">
+                        <img src="assets/images/svg/forma_pago_08.svg" alt="Forma de pago 8">
+                        <img src="assets/images/svg/forma_pago_09.svg" alt="Forma de pago 9">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer">
+
+        <section class="footer__1 container">
+            <h2>Cloud <br> Sky</h2>
+
+            <ul>
+                <li>Inicio</li>
+                <li>Quiénes Somos</li>
+                <li>Paquetes</li>
+                <li>Cruceros</li>
+            </ul>
+
+            <ul>
+                <li>Viajes para empresa</li>
+                <li>Reuniones y eventos</li>
+                <li>Receptivo incoming</li>
+                <li>Novedades</li>
+            </ul>
+
+            <ul>
+                <li>Experiencias</li>
+                <li>Contacto</li>
+                <li>Trabaja con Nosotros</li>
+                <li>Políticas de privacidad</li>
+            </ul>
+
+        </section>
+
+
+        <div class="footer__linea"></div>
+
+        <section class="footer__2 container">
+            <div class="footer__2__casa">
+                <h3>CASA MATRIZ</h3>
+
+                <ul>
+                    <li>
+                        <p>Mesa Central: <br> <span>(+56 9) 9545 8898</span></p>
+                    </li>
+                    <li>
+                        <p>VENTAS VACACIONALES: <br> <span>(+56 2) 1111 22222</span></p>
+                    </li>
+                    <li>
+                        <p>VENTAS EXPERIENCIAS: <br><span>(+56 9) 9545 8898</span></p>
+                    </li>
+                    <li>
+                        <p>ATENCIÓN: <br> <span>Lunes a domingo 07:00 a 23:00 hrs.</span></p>
+                    </li>
+                    <li>
+                        <p>DIRECCIÓN: <br> <span>Segundo nivel del Aeropuerto, oficina B 202</span></p>
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+            <div class="footer__2__oficina">
+                <h3>OFICINA AEROPUERTO</h3>
+
+                <ul>
+                    <li>
+                        <p>Mesa Central: <br><span>(+56 2) 1111 22222</span></p>
+                    </li>
+                    <li>
+                        <p>Móvil: <br> <span>(+56 2) 1111 22222</span></p>
+                    </li>
+                    <li>
+                        <p>ATENCIÓN: <br> <span>Lunes a domingo 07:00 a 23:00 hrs.</span></p>
+                    </li>
+                    <li>
+                        <p>DIRECCIÓN: <br> <span>Segundo nivel del Aeropuerto, oficina B 202</span></p>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="footer__2__emergencia">
+                <h3>TELÉFONO DE EMERGENCIAS / <br> EMERGENCY NUMBER</h3>
+
+                <ul>
+                    <li>
+                        <p>PASAJEROS NACIONALES / <br> NATIONAL PASSENGERS: <br><span>(+56 2) 1111 22222</span></p>
+                    </li>
+                    <li>
+                        <p>ATENCIÓN / BUSINESS HOURS:</p>
+                    </li>
+                    <li>
+                        <p><span>Lunes a viernes de 18:30 a 08:45 hrs.<br>Fines de semana y festivos en horario
+                                continuado.</span></p>
+                    </li>
+                    <li>
+                        <p><span> Monday to friday from 18:30 to 08:45 hrs. <br> Weekends and holidays continued
+                                schedule.</span></p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+        </section>
+
+        <div class="footer__linea"></div>
+
+
+        <div class="footer__3 container">
+            <p>Términos y condiciones</p>
+
+        </div>
+
+        <div class="negro">
+            <div class="footer__4 container">
+
+
+                <p>2020 todos los derechos reservados</p>
+
+                <div class="footer__4__redes">
+                    <ul>
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-linkedin"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+
+/* Footer +++++++++++++++++++++++*/
+
+.footer{
+    background-color: $color-morado;
+    color: $color-blanco;
+    &__1{
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 13px;
+        font-family: $font-secundaria;
+        font-weight: $regular;
+        line-height: 31px;
+        h2{
+            font-size: 60px;
+            font-weight: $bold; 
+            line-height: 48px;
+        }
+        ul {
+            padding-right: 8%;
+            li{
+                display: flex;
+            }
+        }
+    }
+    &__2{
+        font-family: $font-primaria;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        h3{
+            font-size: 15px;
+            font-weight: $bold;
+            padding-bottom: 5px;
+            margin-top: 10px;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        li{
+            display: flex;
+            p{
+                font-size: 15px;
+                font-weight: $bold;
+                padding-bottom: 8px;
+                span{
+                    font-size: 13px;
+                    font-weight: $medium;
+                }
+            }
+        }
+        &__emergencia p{
+            padding-top: 5px;
+        }
+    }
+    &__3{
+        text-align: center;
+        font-family: $font-primaria;
+        p{
+            font-size: 13px;
+            font-weight: $medium;
+            padding: 0 0 30PX;
+        }
+    
+    }
+    .negro{
+        background-color: $color-negro;
+    }
+    &__4{
+        font-family: $font-primaria;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        font-size: 15px;
+        font-weight: $bold;
+        &__redes ul{
+            display: flex;
+            li{
+                display: inline-block;
+                padding-left: 5px;
+                i{
+                    font-size: 20px;
+                padding-left: 8px;
+                }
+            }
+        }
+    }
+    &__linea{
+        margin: 30px 12%;
+        border-top: solid 1px $color-azul-linea;
+    }
+}
+
+
+
+

@@ -1,0 +1,114 @@
+/* Comentarios: Han vivido la experiencia Cloud Sky */
+
+.experiencia{
+    padding: 55px 0;
+    background-color: $color-claro-fondo;
+    font-family: $font-primaria;
+    h3{
+        font-size: 20px;
+        font-weight: $bold;
+        color: $color-azul-prusia;
+        padding: 0 0 15px;
+    }
+}
+
+.comentario{
+    @extend %grilla1;
+    color: $color-gris-texto;
+    &__persona{
+        background-color: $color-blanco;
+        padding: 10px 15px;
+        border-radius: 7px;
+        &__nombre{
+            display: flex;
+            align-items:center;
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+            img{
+                width: 80px;
+                height: 80px;
+                margin: 0 7% 0 0;
+                object-fit: cover;
+                object-position: 40% 50%;
+                border-radius: 50%;
+            }
+            p{
+                font-size: 13px;
+                font-weight: $bold;
+                span{
+                    font-size: 8px;
+                    font-weight: $semi-bold;
+                }
+            }
+        }
+        &__texto p{
+            font-size: 9px;
+            font-weight: $regular;
+            line-height: 12px;
+        }
+    }
+}
+
+.partners{
+    display: flex;
+    align-items: center;
+    margin: 50px 0 0 0;
+    background-color: $color-blanco;
+    padding: 10px 15px;
+    border-radius: 18px;
+    font-family: $font-primaria;
+    &__texto{
+        width: 25%;
+        color: $color-azul-prusia;
+        h4{
+            font-family: $font-tercera;
+            font-size: 20px;
+            font-weight: $semi-bold;
+            padding: 0;
+        }
+        p{
+            font-size: 13px;
+            font-weight: $regular;
+        }
+    }
+    &__images{
+        width: 75%;
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        img:hover{
+            filter: grayscale(1);
+        }
+    }
+}
+
+.pagar{
+    display: flex;
+    align-items: center;
+    margin: 50px 0 0 0;
+    background-color: $color-blanco;
+    padding: 10px 15px;
+    border-radius: 18px;
+    &__texto{
+        padding-right: 80px;
+        color: $color-azul-prusia;
+        width: 23%;
+        h4{
+            font-size: 15px;
+            font-weight: $bold;
+        }
+        p{
+            font-size: 14px;
+            font-weight: $regular;
+        }
+    }
+    &__images{
+        display: flex;
+        width: 77%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        img:hover{
+            filter: grayscale(1);
+        }
+    }
+}

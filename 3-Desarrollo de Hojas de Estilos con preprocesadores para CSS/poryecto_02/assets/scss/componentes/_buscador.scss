@@ -1,0 +1,157 @@
+/* Buscador */
+
+.buscador{
+    width: 65%;
+    font-family: $font-primaria;
+    background-color: $color-morado;
+    margin: -95px auto 0 auto;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    color: $color-blanco;
+}
+
+.lateral{
+    ul{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        li{
+            display: inline-block;
+            background-color: $color-morado-oscuro;
+            padding: 20px 0 20px 10px;
+            a{
+                text-decoration: none;
+                color: $color-blanco;
+                font-size: 16px;
+                font-weight: $bold;
+            }
+        }
+        li::after{
+            content: '';
+            display: flex;
+            margin-left: 20%;
+            width: 80%;
+            background-color: $color-blanco;
+            transform: translateY(22px);
+            border-bottom: solid 1px $color-blanco;
+        }
+        li:nth-child(1){
+            display: flex;
+            align-items: center;
+            display: grid;
+            grid-template-columns: 80% 20%;
+            padding: 0 0 0 0;
+            height: 60px;
+            background: linear-gradient(90deg, rgba(0,0,0,1) 80.4%, rgba(255,255,255,0) 80%);
+            a{
+                margin-left: 6%;
+            }
+            .triangulo{
+                width: 100%;
+                height: 0;
+                border-top: 30px solid transparent;
+                border-left: 3vw solid #000;
+                border-bottom: 30px solid transparent;
+            }
+        }
+        li:nth-child(1)::after{
+            border: none;
+            display: none;
+        }  
+    }
+}
+
+.rellenar{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    padding: 2% 0 5% 0;
+    &__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 5%;
+        &__1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            i{
+                color: $color-verde;
+                font-size: 25px;
+            }
+            input{
+                height: 33px;
+                width: 15vw;
+                padding: 13px 5px 0px;
+                font-size: 14px;
+                color: $color-gris-input;
+                border-radius: 4px;
+                border: none;
+            }
+            input::placeholder{
+                color: $color-gris-input;
+            }
+            label{
+                position:absolute;
+                font-size: 10px;
+                padding: 3px 5px;
+                color: $color-azul-prusia;
+                font-weight: $bold;
+            }
+        }
+        &__2{
+            display: flex;
+            justify-content: space-between;
+            label{
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        &__3{
+            display: flex;
+            justify-content: space-between;
+            input{
+                height: 33px;
+                width: 11vw;
+                padding: 13px 5px 0px;
+                font-size: 14px;
+                color: $color-gris-input;
+                border-radius: 4px;
+                border: none;
+            }
+            input::placeholder{
+                color: $color-gris-input;
+            }
+            label{
+                position:absolute;
+                font-size: 10px;
+                padding: 3px 5px;
+                color: $color-azul-prusia;
+                font-weight: $bold;
+            }
+            i{
+                position: absolute;
+                color: $color-gris-input-2;
+                margin: 8px 0 0 -20px;
+                
+            }
+        }
+    }
+    &__buscar{
+        color: $color-verde;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 0 5%;
+        ul li{
+            list-style:none;
+            padding: 15px 0;
+            font-size: 14px;
+            font-weight: $bold;
+            line-height: 18px;
+        }
+        a{
+            @extend %btnb1;
+        }
+    }
+}

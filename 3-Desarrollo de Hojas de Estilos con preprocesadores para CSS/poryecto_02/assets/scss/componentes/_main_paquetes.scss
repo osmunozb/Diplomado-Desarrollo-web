@@ -1,0 +1,281 @@
+/* PAQUETES ++++++++++++++++++++++++++++++++ */
+
+.avion{
+    background-image: url(../images/jpg/banner_paquete.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 90%;
+    background-attachment: fixed;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.busqueda{
+    background-color: $color-morado;
+    display: grid;
+    grid-template-columns: 25% 15% 15% 15% 25%;
+    gap: 1.25%;
+    height: auto;
+    border-radius: 12px;
+    padding: 0 2%;
+    &__hab{
+        i{
+            position: absolute;
+            color: $color-gris-input-2;
+            margin: 12px 0 0 -20px;
+        }
+    }
+    div{
+        margin: 25px auto;
+        width: 100%;
+        height: 40px;
+        input{
+            font-family: $font-tercera;
+            font-size: 16px;
+            font-weight: $semi-bold;
+            line-height: 22px;
+            color: $color-gris-input-2;
+            width: 100%;
+            margin: 0 auto;
+            height: 100%;
+            border-radius: 4px;
+            border:none;
+        }
+        input::placeholder{
+            font-family: $font-tercera;
+            font-size: 16px;
+            font-weight: $semi-bold;
+            line-height: 22px;
+            color: $color-gris-input-2;
+        }
+        label{
+            position:absolute;
+            font-family: $font-tercera;
+            margin: -14px 0 0 0;
+            color: $color-blanco;
+            font-size: 10px;
+            font-weight: $semi-bold;
+        }
+    }
+    &__btn{    
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 10px 0;
+        a{
+            @extend %btn3;
+        }
+    }
+}
+
+// central 
+
+.sep{
+    padding: 50px 0 70px 0;
+    display: grid;
+    grid-template-columns: 20% 78%;
+    gap: 2%;
+}
+
+%box1{
+    background-color: $color-blanco;
+    box-shadow: 0 0 10px rgba(0,0,0,0.16);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+%box2{
+    background-color: $color-azul-prusia;
+    color: $color-blanco;
+    text-align: center;
+    padding: 6px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 15px;
+}
+
+.izq{
+    font-family: $font-primaria;
+    font-weight: $medium;
+    &__caja1{
+        @extend %box1;
+        &__1{
+            @extend %box2;
+        }
+        &__2{
+            height: 50px;
+            font-size: 13px;
+            color: $color-azul-prusia;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        &__3{
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #F0F0F0;
+                width: 55%;
+                height: 8px;
+                i{
+                    margin: -10px;
+                    color: $color-naranjo;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    &__caja2{
+        @extend %box1;
+        &__1{
+            @extend %box2;
+        }
+        &__2{
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            input{
+                font-family: $font-tercera;
+                font-size: 16px;
+                font-weight: $semi-bold;
+                color: $color-gris-input-2;
+                border-radius: 4px;
+                width: 70%;
+                border: 1px solid $color-claro-borde;
+            }
+        }
+    }
+    &__caja3{
+        @extend %box1;
+        &__1{
+            @extend %box2;
+        }
+        &__2{
+            height: 100px;
+            font-size: 15px;
+            color: $color-azul-prusia;
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: center;
+            flex-wrap: wrap;
+            div{
+                padding: 4px 15%;          
+            }
+        }
+    }
+}
+
+.der{
+    font-family: $font-primaria;
+    &__titu{
+        border-bottom: 1px solid $color-claro-linea;
+        margin-bottom: 10px;
+        color: $color-azul-prusia;
+        padding: 0 25px 5px 0;
+        h2{
+            font-size: 20px;
+            font-weight: $black;
+            line-height: 33px;
+        }
+        p{
+            font-size: 15px;
+            font-weight: $medium;
+            line-height: 18px;
+        }
+        &__det{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.ale{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    padding: 10px 0;
+    color: $color-blanco;
+    &__card{
+        height: 390px;
+        background-image: linear-gradient(0deg, rgba(0,42,74,.9) 5%, rgba(0,42,74,0) 60%), url(../images/jpg/acropolis.jpg);
+        background-repeat: no-repeat;
+        background-position: 69% 75%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        &__1{
+            h3{
+                font-size: 20px;
+                font-weight: $medium;
+                line-height: 23px;
+            }
+            h4{
+                font-size: 15px;
+                font-weight: $bold;
+                line-height: 18px;
+            }
+            p{
+                font-size: 12px;
+                font-weight: $medium;
+                line-height: 15px;
+                padding: 10px 0;
+            }
+        }
+        &__2{
+            display: grid;
+            div{
+                display: grid;
+                grid-template-columns: 50% 50%;
+                text-align: justify;
+                padding: 0 0 8px 0;
+                P{
+                    margin-left: 10%;
+                }
+            }
+            div:nth-child(1){
+                font-size: 9px;
+                font-weight: $medium;
+                padding-bottom: 6px;
+            }
+            div:nth-child(2){
+                p:nth-child(1){
+                    border-right: 1px solid $color-blanco;
+                }
+                p{
+                    font-family: $font-tercera;
+                    font-weight: $extra-bold;
+                    line-height: 19px;
+                    font-size: 15px;
+                }
+                span{
+                    font-family: $font-primaria;
+                    font-size: 18px;
+                    line-height: 24px;
+                    vertical-align:text-top;
+                }
+            }
+        }
+        &__3{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin: 10px 0;
+            a{
+                @extend %btn5;
+            }
+        }
+    }
+}
+
